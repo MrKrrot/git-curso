@@ -24,4 +24,19 @@ $ git log
 
 # Visualiza el historial de cambnios realizados en el repositorio de manera compacta
 $ git log --oneline
+
+# Visualiza las ramas existentes
+$ git branch
+
+# Crea una nueva rama
+$ git branch <nombre_rama>
+
+# Te mueves a la rama escrita
+$ git checkout <nombre_rama>
+
+# Crea una nueva rama y te mueves a ella
+$ git checkout -b <nombre_rama>
+
+# Elimina la rama escrita
+$ git branch -d <nombre_rama>
 ```
