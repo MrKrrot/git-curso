@@ -39,4 +39,13 @@ $ git checkout -b <nombre_rama>
 
 # Elimina la rama escrita
 $ git branch -d <nombre_rama>
+
+# Agrega un repositorio remoto a git dandole un nombre con la url asignada
+$ git remote add <nombre> <url_repositorio_remoto>
+
+# Sube los cambios del repositorio local al repositorio remoto
+$ git push
+
+# Baja los cambios del repositorio remoto al local
+$ git pull
 ```
